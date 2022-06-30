@@ -12,7 +12,7 @@ We will build simple TODO application using different libraries and frameworks u
 
 ## Prerequisite
 
-- API endpoind which support CRUD operations : We will use JSON Server (https://www.npmjs.com/package/json-server)
+- API endpoind which support CRUD operations : JSON Server (https://www.npmjs.com/package/json-server), source code - ./todo_json_server
 
 ## Features
 
