@@ -1,0 +1,20 @@
+<main>
+  <h1>CodeWithSanchit</h1>
+  <h2>TODO - Javascript (No Library / Framework)</h2>
+
+  <div class="container">
+    <div id="newtodo">
+      <input type="text" placeholder="Enter TODO item" maxlength="50" [(ngModel)]="newTodoString" />
+      <button [disabled]="!newTodoString" id="add_todo" (click)="addTodo()">ADD</button>
+    </div>
+
+    <div id="todos">
+      <label class="todo" *ngFor='let todoItem of todos'>
+          <input type="checkbox" id="{{todoItem.id}}" title="{{todoItem.value}}" [checked]="todoItem.status" (change)="handleSelected($event, todoItem.id)">
+          <span [class.checked_item]="todoItem.status">{{todoItem.value}}</span>
+      </label>
+    </div>
+
+    <button id="clear_todo" (click)="clearTodo()">CLEAR COMPLETED</button>
+  </div>
+</main>
