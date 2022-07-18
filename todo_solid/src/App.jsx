@@ -16,7 +16,7 @@ function App() {
     <div>
       <header>
         <h1>CodeWithSanchit</h1>
-        <h2>TODO - Solid</h2>
+        <h2>TODO app using Solid JS</h2>
       </header>
       <main>
         <div class={"container"}>

@@ -2,6 +2,7 @@
   "name": "todo_vue",
   "version": "0.0.0",
   "scripts": {
+    "start": "vite --port 3004",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173"

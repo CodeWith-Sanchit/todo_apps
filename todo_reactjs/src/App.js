@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <main>
         <h1>CodeWithSanchit</h1>
-        <h2>TODO - Javascript (No Library / Framework)</h2>
+        <h2>TODO app using React JS</h2>
 
         <div class="container">
           <div id="newtodo">

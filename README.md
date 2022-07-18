@@ -2,13 +2,12 @@
 
 We will build simple TODO application using different libraries and frameworks using Javascript or Typescript.
 
-- [ ] Javascript (No Library / Framework)
-- [ ] React
-- [ ] Angular
-- [ ] Vue
-- [ ] Solid
-- [ ] Svelte
-- [ ] Web Components
+- [x] Javascript (No Library / Framework)
+- [x] React
+- [x] Angular
+- [x] Vue
+- [x] Solid
+- [x] Svelte
 
 ## Prerequisite
 
