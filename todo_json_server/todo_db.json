@@ -1,3 +1,34 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "value": "Javascript",
+      "status": false,
+      "id": 1
+    },
+    {
+      "value": "React",
+      "status": false,
+      "id": 2
+    },
+    {
+      "value": "Angular",
+      "status": false,
+      "id": 3
+    },
+    {
+      "value": "Vue",
+      "status": false,
+      "id": 4
+    },
+    {
+      "value": "Solid",
+      "status": false,
+      "id": 5
+    },
+    {
+      "value": "Svelte",
+      "status": false,
+      "id": 6
+    }
+  ]
 }

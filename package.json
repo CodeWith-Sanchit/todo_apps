@@ -1,0 +1,47 @@
+{
+  "name": "todo_apps",
+  "version": "1.0.0",
+  "description": "We will build simple TODO application using different libraries and frameworks using Javascript or Typescript.",
+  "scripts": {
+    "dev":"concurrently \"npm:setup\" \"npm:start\" \"npm:open\"",
+    "setup": "npm install && concurrently \"npm:setup:*\"",
+    "setup:json_server": "cd todo_json_server && npm install",
+    "setup:javascript": "cd todo_javascript_html_css && npm install",
+    "setup:reactjs": "cd todo_reactjs && npm install",
+    "setup:angular": "cd todo_angular && npm install",
+    "setup:vue": "cd todo_vue && npm install",
+    "setup:solid": "cd todo_solid && npm install",
+    "setup:svelte": "cd todo_svelte && npm install",
+    "start": "concurrently \"npm:start:*\"",
+    "start:json_server": "cd todo_json_server && npm start",
+    "start:javascript": "cd todo_javascript_html_css && npm start",
+    "start:reactjs": "cd todo_reactjs && npm start",
+    "start:angular": "cd todo_angular && npm start",
+    "start:vue": "cd todo_vue && npm start",
+    "start:solid": "cd todo_solid && npm start",
+    "start:svelte": "cd todo_svelte && npm start",
+    "open": "concurrently \"npm:open:*\"",
+    "open:json_server": "open-cli http://localhost:8080",
+    "open:javascript": "open-cli http://localhost:3001",
+    "open:reactjs": "open-cli http://localhost:3002",
+    "open:angular": "open-cli http://localhost:3003",
+    "open:vue": "open-cli http://localhost:3004",
+    "open:solid": "open-cli http://localhost:3005",
+    "open:svelte": "open-cli http://localhost:3006"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWith-Sanchit/todo_apps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWith-Sanchit/todo_apps/issues"
+  },
+  "homepage": "https://github.com/CodeWith-Sanchit/todo_apps#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "open-cli": "^7.0.1"
+  }
+}
