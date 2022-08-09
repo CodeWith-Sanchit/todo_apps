@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite --port 3006",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/svelte/",
     "preview": "vite preview"
   },
   "devDependencies": {

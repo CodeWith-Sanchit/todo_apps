@@ -27,7 +27,15 @@
     "open:angular": "open-cli http://localhost:3003",
     "open:vue": "open-cli http://localhost:3004",
     "open:solid": "open-cli http://localhost:3005",
-    "open:svelte": "open-cli http://localhost:3006"
+    "open:svelte": "open-cli http://localhost:3006",
+
+    "build": "rm -rf builds/* && concurrently \"npm:build:*\"",
+    "build:javascript": "cd todo_javascript_html_css && cp -R ./src ../builds/javascript",
+    "build:reactjs": "cd todo_reactjs && PUBLIC_URL='/react' npm run build && mv ./build ../builds/react",
+    "build:angular": "cd todo_angular && npm run build && mv ./dist/todo_angular ../builds/angular",
+    "build:vue": "cd todo_vue && PUBLIC_URL='/vue' npm run build && mv ./dist ../builds/vue",
+    "build:solid": "cd todo_solid && PUBLIC_URL='/solid' npm run build && mv ./dist ../builds/solid",
+    "build:svelte": "cd todo_svelte && PUBLIC_URL='/svelte' npm run build && mv ./dist ../builds/svelte"
   },
   "repository": {
     "type": "git",

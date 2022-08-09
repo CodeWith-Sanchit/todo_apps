@@ -4,7 +4,7 @@
   "scripts": {
     "start": "vite --port 3004",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/vue/",
     "preview": "vite preview --port 4173"
   },
   "dependencies": {

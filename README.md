@@ -1,6 +1,6 @@
 # TODO Applications
 
-We will build simple TODO application using different libraries and frameworks using Javascript or Typescript.
+We will build a simple TODO application using different libraries and frameworks using Javascript or Typescript.
 
 - [x] JSON server to support the following CRUD Applications - Port:8080
 ---
@@ -23,5 +23,5 @@ We will build simple TODO application using different libraries and frameworks u
 - Option to Update TODO
 
 ## Developer Guide
-- To install node modules and start all applications run the following command
+- To install node modules and start all applications, run the following command
 `npm run dev`
