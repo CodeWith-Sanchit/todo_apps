@@ -25,3 +25,13 @@ We will build a simple TODO application using different libraries and frameworks
 ## Developer Guide
 - To install node modules and start all applications, run the following command
 `npm run dev`
+
+## Run with Docker
+#### Build Docker image on Local dev env
+- `docker build . -t todo_apps`
+
+#### Pull from Github package registry
+- `docker pull ghcr.io/codewith-sanchit/todo_apps:latest`
+
+#### Run
+- `docker run -p 80:8080 -p 8080:8080 todo_apps`
