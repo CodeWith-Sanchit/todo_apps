@@ -31,7 +31,17 @@ We will build a simple TODO application using different libraries and frameworks
 - `docker build . -t todo_apps`
 
 #### Pull from Github package registry
-- `docker pull ghcr.io/codewith-sanchit/todo_apps:latest`
+- `docker pull ghcr.io/codewith-sanchit/todo_apps:main`
 
 #### Run
-- `docker run -p 80:8080 -p 8080:8080 todo_apps`
+- `docker run -p 80:8080 -p 8080:8080 ghcr.io/codewith-sanchit/todo_apps:main`
+
+#### Access the following applications in Browser
+- Javascript - http://localhost/javascript/
+- React - http://localhost/react/
+- Angular - http://localhost/angular/
+- Vue - http://localhost/vue/
+- Solid - http://localhost/solid/
+- Svelte - http://localhost/svelte/
+
+- JSON Server - http://localhost:8080
